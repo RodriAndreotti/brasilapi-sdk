@@ -1,0 +1,20 @@
+{
+    "name": "rodriandreotti/brasilapi-php-sdk",
+    "description": "SDK que abstrai as implementações presentes no projeto Brasil API para uso com PHP",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "BrasilAPI\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rodrigo Teixeira Andreotti"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
